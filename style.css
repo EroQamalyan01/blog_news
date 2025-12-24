@@ -1,0 +1,129 @@
+/* body {
+  font-family: Arial, sans-serif;
+  width: 800px;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+}
+.news-item {
+  padding: 10px;
+  background: #f0f0f0;
+  border-radius: 5px;
+}
+form {
+  margin: 20px 0;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+button {
+  padding: 10px 20px;
+  background: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: #2980b9;
+} */
+/* ընդհանուր շեշտադրումներ */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 800px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* վերնագիր */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+.navbar a {
+    text-decoration: none;
+    color: #3498db;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.navbar a:hover {
+    color: #2980b9;
+}
+
+/* news items */
+.news-item {
+    background-color: #f0f8ff;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-left: 5px solid #3498db;
+    border-radius: 5px;
+}
+.news-item h2 {
+    margin: 0 0 10px 0;
+    color: #2c3e50;
+}
+.news-item p {
+    margin: 0 0 10px 0;
+    line-height: 1.5;
+}
+.news-item small {
+    color: #777;
+}
+
+/* forms */
+form {
+    display: flex;
+    flex-direction: column;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+button:hover {
+    background-color: #2980b9;
+}
+
+/* սցենարների էֆեկտներ */
+a {
+    transition: color 0.3s;
+}
