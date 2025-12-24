@@ -20,12 +20,13 @@ $allNews = $newsObj->getAllNews();
 <div class="container">
 <h1>Նորություններ</h1>
 
+<div class="navbar">
 <?php if(isset($_SESSION['user'])): ?>
-<p>Բարև, <?= htmlspecialchars($_SESSION['user']['username']) ?>! <a href="logout.php">Ելք</a></p>
-<a href="add_news.php">Ավելացնել նորություն</a>
+Բարև, <?= htmlspecialchars($_SESSION['user']['username']) ?> | <a href="dashboard.php">Իմ նորությունները</a> | <a href="add_news.php">Ավելացնել նորություն</a> | <a href="logout.php">Ելք</a>
 <?php else: ?>
-<p><a href="register.php">Գրանցվել</a> | <a href="login.php">Մուտք</a></p>
+<a href="register.php">Գրանցվել</a> | <a href="login.php">Մուտք</a>
 <?php endif; ?>
+</div>
 
 <hr>
 

@@ -20,8 +20,11 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
+<div class="container">
+<h2>Մուտք</h2>
 <form method="POST">
-<input type="text" name="username" placeholder="Անուն" required><br>
-<input type="password" name="password" placeholder="Գաղտնաբառ" required><br>
+<input type="text" name="username" placeholder="Անուն" required>
+<input type="password" name="password" placeholder="Գաղտնաբառ" required>
 <button type="submit">Մուտք գործել</button>
 </form>
+</div>

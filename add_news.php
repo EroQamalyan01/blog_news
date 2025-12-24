@@ -23,8 +23,11 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
+<div class="container">
+<h2>Ավելացնել նորություն</h2>
 <form method="POST">
-<input type="text" name="title" placeholder="Վերնագիր" required><br>
-<textarea name="content" placeholder="Բովանդակություն" required></textarea><br>
+<input type="text" name="title" placeholder="Վերնագիր" required>
+<textarea name="content" placeholder="Բովանդակություն" required></textarea>
 <button type="submit">Ավելացնել</button>
 </form>
+</div>
